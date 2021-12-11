@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html>
+<head>  
+    <title>MINRYL</title>
+    <link rel="icon" href="Imagens/1.ico">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+<style>
+            body{
+                background-color: #E1F3FF;
+            }
+            .navbar{
+                background:  #6149A7;    
+            }
+            h4.logo{
+                text-align: center;
+                font-family:cursive
+                
+            }
+            h3{
+                text-align: center;
+            }
+            div.primeira{
+                position: absolute;
+                margin:20px;
+                padding: 10px;
+                margin-left: 5%;
+                margin-right: 50%;
+                text-align: justify;        
+            }
+            div.ultima{
+                position: absolute;
+                margin:20px;
+                padding: 10px;
+                margin-left: 55%;
+                margin-right: 3%;
+                text-align: justify;    
+            }
+            iframe{
+                background-color: #FFE99C;
+                padding: 10px;
+                margin-left: 25%;
+            }
+            div.divisao
+            {
+                background:  #9B8CF8;
+                margin-top: 3%;
+            }
+            h4.mapa{
+                position: absolute;               
+                margin-top: 13%;
+                color: rgb(255, 255, 255);
+                margin-left: 31%;
+                margin-right: 4%; 
+            }
+            h4.geografia{
+                color: rgb(255, 255, 255);
+                text-align: center;
+                font-family:cursive
+            }
+            h4.oeste{
+                position: absolute;               
+                margin-top: 21%;
+                color: rgb(255, 255, 255);
+                margin-left: 33%;
+                margin-right: 4%;
+            }
+            h4.sul{
+                position: absolute;               
+                margin-top: 26%;
+                color: rgb(255, 255, 255);
+                margin-left: 56%;
+                margin-right: 4%;
+            }
+            h4.nordeste{
+                position: absolute;               
+                margin-top: 13%;
+                color: rgb(255, 255, 255);
+                margin-left: 65%;
+                margin-right: 4%;
+            }
+            h5{
+                position: absolute;               
+                margin-top: 26%;
+                color: rgb(255, 255, 255);
+                margin-left: 22%;
+                margin-right: 4%;
+            }
+            h6.pular{ 
+            position: absolute; 
+            margin-left: 30%; 
+            margin-right: 4%;
+           
+        } 
+        h6.desnutrição{ 
+            position: absolute; 
+            margin-left: 35%; 
+            margin-right: 4%; 
+            
+        } 
+        h6.quiz{ 
+            position: absolute; 
+            margin-left: 56.8%; 
+            margin-right: 4%;
+            
+        } 
+        h6.ajuda{ 
+            position: absolute; 
+            margin-left: 48.6%; 
+            margin-right: 8%; 
+           
+        } 
+        h6.pandemia{ 
+            position: absolute; 
+            margin-left: 42.4%; 
+            margin-right: 6%; 
+           
+        } 
+        h6.DER{
+            position: absolute;
+            margin-left: 60.8%;
+            margin-right: 6%;
+            
+        }
+        a.link{
+                color: rgb(0, 0, 0);
+                text-decoration: none;
+            }
+            #divBusca{ 
+            background-color:#E0EEEE; 
+            border:solid 2px #5F9EA0; 
+            border-radius:10px; 
+            width:500px; 
+            height:30px; 
+            display: flex;
+            margin-right: 45%;
+        } 
+
+        #txtBusca{ 
+            float:left; 
+            background-color:transparent; 
+            padding-left:5px; 
+            font-size:18px; 
+            border:none; 
+            height:32px; 
+            width:450px; 
+            margin-left: 2%;
+        } 
+        #btnBusca{ 
+            border:none; 
+            float:right; 
+            height:26px; 
+            border-radius:0 7px 7px 0; 
+            width:70px; 
+            font-weight:bold; 
+            background:#5F9EA0; 
+            margin-left: 215px; 
+        } 
+            div.container-fluid{
+        padding-top: 1%;
+        padding-bottom: 3px;
+    }
+
+            #divBusca img{
+                float:left;
+            }
+            div.imagem{
+                margin-top: 3%;
+                text-align: left;
+            }
+            div.segundaimagem{
+                margin-top: 0.06%;
+                text-align: right;
+            }
+            div.textodoiss{
+                position: absolute;
+                margin:20px;
+                padding: 10px;
+                margin-left: 2%;
+                margin-right: 54%;
+                text-align: justify;        
+            }
+           
+        
+            div.login{ 
+            width:500px; 
+            height:30px; 
+            margin-left: 79%;
+            background-color: white;
+            padding-bottom: 7%;
+            padding-top: 2%;
+            padding-left: 3%;
+            padding-right: 3%;
+        } 
+        h6.final{
+                position: absolute;
+                margin-left: 38%;
+                margin-right: 10%;
+            }
+            div.brasil{
+                background-color: rgb(96, 185, 240);
+                
+            }
+           
+</style>
+</head>
+<body>
+    <h4 class="logo">A solidariedade é um combustível para mudar o mundo!</h4>
+    <nav class="navbar"><img src="Sites/img/Logo_MINRYL.png" width="15%">
+        <div id="divBusca">
+        <input type="text" id="txtBusca" placeholder="Buscar..."/>
+        <button id="btnBusca">Buscar</button>
+        <div class="login">
+        <a class="link" href="Sites/Pag_login.html">Cadastro/Login</a>
+        </div>
+        </div>
+    </nav>
+
+            <div class="container-fluid">
+                <h6 class="pular"><a class="link" href="trabalho.html">Home </a></h6> 
+                <h6 class="desnutrição"><a class="link" href="Sites/pagina2.html">   Desnutrição </a></h6> 
+                <h6 class="quiz"><a class="link" href="Sites/Pagina_Quiz.html">  Quiz </a></h6> 
+                <h6 class="ajuda"><a class="link" href="Sites/Pagina3.html">  Como ajudar?</a></h6> 
+                <h6 class="pandemia"><a class="link" href="Sites/trabalhointer.html">    Pandemia </a></h6>
+                <h6 class="DER"><a class="link" href="Sites/DER.png" >Banco de Dados </a></h6>
+            </div>
+       
+          <br>
+<hr>
+       <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 5"></button>
+       </div>
+
+       <div class="carousel-inner">
+         <div class="carousel-item active">
+           <a href="#"><img src="Imagens/carne bonita.jpg" class="d-block w-100"width="100"height="640"></a>
+         </div>
+         <div class="carousel-item">
+           <a href="https://www.paho.org/pt/noticias/12-7-2021-sofi-2021-relatorio-da-onu-destaca-os-impactos-da-pandemia-no-aumento-da-fome-no"><img src="Imagens/coronga.png" class="d-block w-100" alt="temperatura"width="100"height="640"></a>
+         </div>
+         <div class="carousel-item">
+           <a href="#"><img src="Imagens/n png.png" class="d-block w-100" width="100"height="640"></a>
+         </div>
+         <div class="carousel-item">
+           <a href="https://www.cnnbrasil.com.br/nacional/fome-avanca-e-atinge-mais-9-milhoes-de-brasileiros-nos-ultimos-dois-anos/"><img src="Imagens/fome 2.0.png" class="d-block w-100" width="100"height="640"></a>
+         </div>
+         <div class="carousel-item">
+          <a href="https://www1.folha.uol.com.br/empreendedorsocial/2021/07/avanco-da-fome-e-da-desigualdade-revela-urgencia-da-nocao-de-coletivo.shtml"> <img src="Imagens/figma daniel.png" class="d-block w-100" width="100" height="640"></a>
+         </div>
+       </div>
+
+       <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+         <span class="visually-hidden">Previous</span>
+       </button>
+       <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+         <span class="carousel-control-next-icon" aria-hidden="true"></span>
+         <span class="visually-hidden">Next</span>
+       </button>
+     </div>
+<br><br>
+<h4 class="logo">O tamanho da Fome no Brasil</h4>
+<div class="primeira">116 milhões de pessoas vivem em situação de insegurança alimentar no Brasil; consequências são nefastas principalmente para crianças
+            Mais da metade da população brasileira — 116 milhões de pessoas — vive com algum grau de insegurança alimentar. Ao menos 19 milhões estão passando fome, situação agravada pela pandemia e pela crise econômica do país. Os dados são de levantamento da Rede Brasileira de Pesquisa em Soberania e Segurança Alimentar e Nutricional (Rede Penssan).
+            Há muitas consequências decorrentes da insegurança alimentar e da fome. Segundo especialistas consultados pela CNN Brasil, elas envolvem problemas de saúde que se transformam em mazelas sociais, econômicas e educacionais e podem ser irreversíveis, sobretudo nas crianças.
+            Há três graus de insegurança alimentar, o leve, o moderado e o grave, que acontecem pela preocupação em não ter o que comer, pela falta de acesso pleno a alimentos até a fome de fato, explica Milene Pessoa, professora do Departamento de Nutrição da Escola de Enfermagem da UFMG, que estuda os efeitos da insegurança alimentar no Brasil.
+</div>
+<div class="ultima">“Qualquer grau de insegurança alimentar pode causar comprometimento na saúde, indo de deficiências de macronutrientes, como proteínas e carboidratos, à falta de micronutrientes, como minerais e vitaminas, até chegar ao ponto de o corpo parar de funcionar”, afirma Pessoa.
+            Segundo a nutricionista da UFMG, as principais vítimas da insegurança alimentar são as crianças, já que, no caso delas, a condição pode comprometer o crescimento e o desenvolvimento físico e cognitivo necessários para que rompam a bolha da pobreza extrema, explica a nutricionista.
+            Dados da Fundação Abrinq mostram que 18 milhões de crianças estão em situação de insegurança alimentar no Brasil.
+</div>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<img src="Imagens/linhas.png" width="100%" height="100%">
+<div class="divisao">
+    <center>  
+     <img src="Imagens/mapa da fome.png" height="100%" width="70%">   
+    </center>
+
+</div>
+<br><br><br>
+<h4 class="logo">Carga dupla de má nutrição</h4>
+<br>
+    <p>Há outro efeito da insegurança alimentar que também pode trazer sérios problemas de saúde.
+        É o que os nutricionistas chamam de ‘carga dupla da má nutrição’ — a coexistência entre o excesso do consumo de produtos ultraprocessados (ricos em açúcar, sal, gordura e conservantes) e a falta de nutrientes na alimentação, explica Milene Pessoa, da UFMG.
+        “Isso acontece em função de um padrão alimentar estimulado pelo alto consumo de ultraprocessados que, ao contrário dos alimentos básicos, não sofreram tanto aumento de preço, são mais baratos, porém muito maléficos à saúde por serem pobres em nutrientes e causam sobrepeso e obesidade”, diz Pessoa. “Então, uma mesma família que passa por uma situação de insegurança alimentar pode ter indivíduos obesos, que é a associação de diferentes graus de insegurança alimentar”, completa. Uma pesquisa realizada pela Unicef Brasil no ano passado apontou que 49% da população brasileira com 18 anos ou mais declarou ter mudado os hábitos alimentares durante a pandemia, e aproximadamente um em cada cinco brasileiros dessa faixa etária passou por algum momento em que não tinha recursos para comprar comida. Mas como a insegurança alimentar não é caracterizada somente pela quantidade, mas também pela qualidade do que se consome, algumas famílias sem problemas financeiros também podem viver sob esta condição, embora de grau leve, explica Pessoa.
+        “A base da alimentação saudável é a comida que nós precisamos preparar, como arroz, feijão e vegetais, que já faz parte da nossa história e cultura alimentar. Mas para que se atinja isso, há uma gama de fatores, que envolvem investimento em políticas públicas”, afirma a nutricionista.</p>
+<br>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+<div class="brasil">
+<h4 class="logo">Brasil</h4>
+<div class="brasil">
+    <center>
+    Domicílios com insegurança alimentar (%)	22,6<br> 
+    Domicílios com insegurança alimentar grave (%)	3,2<br>
+    Domicílios om insegurança alimentar moderada (%)	4,6<br>
+    Domicílios com insegurança alimentar leve (%)	14,8<br>
+    Domicílios com segurança alimentar (%)	77,4
+</center>
+</div>
+</div>
+</h6>
+
+<br><br>
+<h4 class="logo">Fome mata 15 pessoas por dia no Brasil</h4>
+
+    <div class="ultima">Hoje, segundo dados do Ministério da Saúde, a cada dia cerca de 15 pessoas morrem de desnutrição no Brasil. Em 2017, conforme dados do Ministério da Saúde 5.653 pessoas morreram de desnutrição, ou seja, por falta do que comer, ou seja, de fome. Essa dura realidade contradiz a declaração do presidente do Brasil durante café da manhã com a imprensa estrangeira nesta sexa-feira, 19 de julho. Segundo o presidente a fome no Brasil é “uma grande mentira.” Os dados do governo insistem em desmentir o presidente. Em 2018, o Ministério da Cidadania divulgou o Mapeamentoda Insegurança Alimentar e Nutricional (Mapa InSAN), com o alarmante registro de que, dentre ascrianças com menos de cinco anos atendidas pelo Bolsa Família, 427.551 tinham algum grau de desnutrição. Já a última pesquisa do IBGE sobre o tema, 7,2 milhões de pessoas vivem em situação de insegurança alimentar grave no país, que é quando alguém passa o dia todo sem comer por falta de dinheiro para comprar alimentos e há redução quantitativa de alimentos entre crianças, que passam então, a apresentar um quadro de desnutrição, que é medido de acordo com o déficit de peso por idade ou de altura por idade.</div>
+    <div class="imagem"><img src="Imagens/inseguranca.jpg"  height="50%" width="50%">
+        <div class="textodoiss">
+            Os dados incluem óbitos relacionados aos quadros de desnutrição proteico-calórica leve, moderada e grave.
+            Em todo o mundo, 821,6 milhões de pessoas passaram fome no ano passado. Em 2017, eram 811 milhões de pessoas nesta situação. Os dados são do documento ‘Estado da Insegurança Alimentar e Nutricional no Mundo’.           
+            Com um em cada quatro brasileiros vivendo na pobreza e 13,5 milhões de pessoas vivendo na extrema pobreza, a fome faz parte da vida dos brasileiros.           
+            De acordo com dados do Datasus, entre 2008 e 2017, ano dos últimos dados consolidados, o Brasil registrou 63.712 óbitos por complicações decorrentes da desnutrição. Isso representa uma média de 6.371 mortes por ano e 15 mortes por dia. O levantamento foi realizado pelo jornal Estadão.            
+            Os dados incluem óbitos relacionados aos quadros de desnutrição proteico-calórica leve, moderada e grave e a condições mais raras, porém ainda existentes no Brasil, como kwashiorkor (desnutrição provocada pela ingestão inadequada de proteínas) e marasmo nutricional (condição na qual a falta de calorias leva a uma importante perda muscular e atrofia de alguns órgãos).          
+            Nos últimos dois casos, a falta de nutrientes faz com que os doentes, apesar da magreza, apresentem um inchaço abdominal significativo porque, sem proteínas, o corpo não consegue fazer o transporte devido dos líquidos.</div>
+    <div class="segundaimagem"><img src="Imagens/insegurança.jpg" height="50%" width="50%"></div>
+<br>
+<hr>
+<div class="primeira">
+            Sobre o MINRYL:
+<br>
+            O MINRYL é um grupo feminino com projeto de conscientizar e ajudar nos Objetivos de Desenvolvimento Sustentável da ONU atravéz do uso da tecnologia para auxiliar e ter amplo alcance.<br>
+            O MINRYL apoia os Objetivos de Desenvolvimento Sustentável da ONU: <br> <br> <img src="Imagens/fome.png" a height="65"> <img src="Imagens/pobreza.png" a height="65"> <img src="Imagens/desigualdade.png" a height="65">
+</div>
+<div class="ultima">Fale conosco
+<br> Para falar com a gente, ligue para 0800 580 2378<br>
+<img src="Imagens/redes sociais.png" a height="85">
+</div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>  
+</body>
+</html>
